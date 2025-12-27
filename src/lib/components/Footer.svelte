@@ -12,6 +12,7 @@
     border-top: 1px solid var(--color-primary);
     margin: 27px;
     padding-top: 10px;
+    padding-bottom: 80px;
 }
 
 .footer__img{
