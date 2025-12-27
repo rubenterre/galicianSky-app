@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>profile_icon</title>
+    <g id="Página-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Frame" transform="translate(-305, -50)" stroke="#ECC988">
+            <g id="Grupo-Copia-2" transform="translate(286, 33)">
+                <g id="profile_icon" transform="translate(19, 17)">
+                    <circle id="Óvalo" cx="10.5" cy="5.5" r="5"></circle>
+                    <path d="M20.5,21.0509728 C20.5,22.8258993 19.9006976,23.7264695 18.6167512,24.1563611 C17.5323334,24.5194465 16.4258818,24.5534075 13.189931,24.441039 C11.958304,24.3982707 11.2841273,24.3814756 10.5,24.3814756 C9.71587273,24.3814756 9.04169603,24.3982707 7.810069,24.441039 C4.5741182,24.5534075 3.46766656,24.5194465 2.38324879,24.1563611 C1.09930242,23.7264695 0.5,22.8258993 0.5,21.0509728 C0.5,16.3462549 4.96202603,12.5 10.5,12.5 C16.037974,12.5 20.5,16.3462549 20.5,21.0509728 Z" id="Óvalo-Copia"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
