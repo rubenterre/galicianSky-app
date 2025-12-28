@@ -63,7 +63,9 @@
   inset: 4px;
   width: calc((100% - 35px) / 4);  /* 4 botones, resta gap total (3*10px) */
   border-radius: 999px;
-  background: radial-gradient(circle at top, #f5e0b0 0%, #f0b25a 60%);
+/*   background: radial-gradient(circle at top, #f5e0b0 0%, #f0b25a 60%);
+ */
+ background: var(--color-primary);  
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
   z-index: 0;
 
