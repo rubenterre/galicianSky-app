@@ -9,7 +9,8 @@
     "rango_temperatura": [0, 15],
     "lluvia": true,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Helly Hansen"
   },
   {
     "id": "hh-002",
@@ -21,7 +22,8 @@
     "rango_temperatura": [-10, 5],
     "lluvia": false,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Helly Hansen"
   },
   {
     "id": "hh-003",
@@ -33,7 +35,8 @@
     "rango_temperatura": [-5, 15],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Helly Hansen"
   },
   {
     "id": "hh-004",
@@ -45,7 +48,8 @@
     "rango_temperatura": [-5, 15],
     "lluvia": true,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Helly Hansen"
   },
   {
     "id": "nf-001",
@@ -57,7 +61,8 @@
     "rango_temperatura": [0, 18],
     "lluvia": true,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "The North Face"
   },
   {
     "id": "nf-002",
@@ -69,7 +74,8 @@
     "rango_temperatura": [-15, 5],
     "lluvia": false,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "The North Face"
   },
   {
     "id": "nf-003",
@@ -81,7 +87,8 @@
     "rango_temperatura": [0, 20],
     "lluvia": true,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "The North Face"
   },
   {
     "id": "nf-004",
@@ -93,7 +100,8 @@
     "rango_temperatura": [-10, 8],
     "lluvia": false,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "The North Face"
   },
   {
     "id": "nike-001",
@@ -105,7 +113,8 @@
     "rango_temperatura": [15, 35],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Nike"
   },
   {
     "id": "nike-002",
@@ -117,7 +126,8 @@
     "rango_temperatura": [5, 20],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Nike"
   },
   {
     "id": "nike-003",
@@ -129,7 +139,8 @@
     "rango_temperatura": [0, 30],
     "lluvia": true,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Nike"
   },
   {
     "id": "nike-004",
@@ -141,7 +152,8 @@
     "rango_temperatura": [8, 22],
     "lluvia": true,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Nike"
   },
   {
     "id": "adidas-001",
@@ -153,7 +165,8 @@
     "rango_temperatura": [18, 35],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Adidas"
   },
   {
     "id": "adidas-002",
@@ -165,7 +178,8 @@
     "rango_temperatura": [2, 18],
     "lluvia": true,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Adidas"
   },
   {
     "id": "adidas-003",
@@ -177,7 +191,8 @@
     "rango_temperatura": [5, 20],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Adidas"
   },
   {
     "id": "adidas-004",
@@ -189,7 +204,8 @@
     "rango_temperatura": [0, 30],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Adidas"
   },
   {
     "id": "qs-001",
@@ -201,7 +217,8 @@
     "rango_temperatura": [22, 40],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Quiksilver"
   },
   {
     "id": "qs-002",
@@ -213,7 +230,8 @@
     "rango_temperatura": [20, 40],
     "lluvia": false,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Quiksilver"
   },
   {
     "id": "qs-003",
@@ -225,7 +243,8 @@
     "rango_temperatura": [10, 22],
     "lluvia": false,
     "viento": true,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Quiksilver"
   },
   {
     "id": "qs-004",
@@ -237,6 +256,7 @@
     "rango_temperatura": [20, 40],
     "lluvia": true,
     "viento": false,
-    "genero": "unisex"
+    "genero": "unisex",
+    "marca": "Quiksilver"
   }
 ]
