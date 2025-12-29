@@ -164,6 +164,90 @@
   </section>
 
   <Footer></Footer>
+{:else}
+ <div class="weather-app">
+    <main class="weather-app__main">
+      <section class="weather-card">
+        <div class="row">
+          <div class="col s12">
+            <header class="weather-card__header">
+              <p class="weather-card__city">Cidade descoñecida</p>
+              <p class="weather-card__date">Data descoñecida</p>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="weather-card__current">
+              <div class="weather-card__icon-wrapper">
+                <img
+                  src="/assets/weather/10d.gif"
+                  class="weather-card__icon"
+                  alt="Icono do tempo"
+                  aria-hidden="true"
+                />
+              </div>
+              <p class="weather-card__temperature">
+                0°
+              </p>
+              <p class="weather-card__description">
+                Descripción do tempo descoñecido
+              </p>
+              <p class="weather-card__range">
+                <span class="weather-card__range-max"
+                  >Max. 0°</span
+                >
+                <span class="weather-card__range-separator">|</span>
+                <span class="weather-card__range-min"
+                  >Min. 0°</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="weather-card__landmark">
+          <img
+            src={locationImg}
+            alt="Catedral de Santiago de Compostela"
+            class="weather-card__landmark-image"
+          />
+        </figure>
+
+        <DetailsToday
+          feelsLike="0"
+          humidity="0"
+          wind="0"
+        ></DetailsToday>
+      </section>
+    </main>
+  </div>
+  <section class="weather-card__forecast">
+    <header class="weather-card__forecast-header">
+      <p class="weather-card__forecast-title">Pronóstico por horas</p>
+    </header>
+
+      <p class="weather-card__p--desconnect">Sen detalles</p>
+  </section>
+  <section class="weather-card__forecast">
+    <header class="weather-card__forecast-header">
+      <p class="weather-card__forecast-title">Pronóstico por días</p>
+    </header>
+
+      <p class="weather-card__p--desconnect">Sen detalles</p>
+  </section>
+
+  <section class="weather-card__details">
+    <header class="weather-card__forecast-header">
+      <p class="weather-card__forecast-title">Detalles</p>
+    </header>
+
+    <div class="weather-card__details--container">
+      <p class="weather-card__p--desconnect">Sen detalles</p>
+    </div>
+  </section>
+  <Footer></Footer>
+
 {/if}
 
 <style>
@@ -286,5 +370,9 @@
 
   .weather-card__details--container {
     padding: 0px 27px;
+  }
+
+  .weather-card__p--desconnect{
+    text-align: center;
   }
 </style>

@@ -1,16 +1,24 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 	import Menu from '$lib/components/Menu.svelte';
-	let { children } = $props();
 	import '../app.scss';
 
+  import { fade } from 'svelte/transition';
+  import { page } from '$app/stores';
+
+  let { children } = $props();
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
+{#key $page.url.pathname}
+  <div in:fade={{ duration: 400 }}>
+
 {@render children()}
+  </div>
+{/key}
 
 <Menu></Menu>
 
