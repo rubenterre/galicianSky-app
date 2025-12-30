@@ -7,18 +7,16 @@
 
   const links = [
     {
-      name: "Política de privacidade",
-      link: "/",
+      name: "Política de privacidade e GDPR",
+      url: "/privacidade",
     },
     {
       name: "Aviso legal",
-      link: "/",
+      url: "/legal",
     },
-    {
-      name: "Política de GDPR",
-      link: "/",
+    { name: "Términos y condiciones de uso", 
+      url: "/terminos", 
     },
-    { name: "Términos y condiciones de uso", link: "/" },
   ];
 </script>
 
@@ -42,15 +40,16 @@
         seleccionada.
       </p>
 
-
       <div class="about__logo-wrapper">
         <img class="about__logo" src={logo} alt="logo Rubén Terré" />
       </div>
 
       <p class="about__text">
-        Desenvolto por <strong>Rubén Terré</strong>. Para máis información sobre os meus traballos visita a miña web en
-        <a class="about__a" href="https://www.rubenterre.com">www.rubenterre.com</a> ou a través dos
-        seguintes canais:
+        Desenvolto por <strong>Rubén Terré</strong>. Para máis información sobre
+        os meus traballos visita a miña web en
+        <a class="about__a" href="https://www.rubenterre.com"
+          >www.rubenterre.com</a
+        > ou a través dos seguintes canais:
       </p>
 
       <div class="about__socials">
@@ -77,9 +76,9 @@
 
       <div class="about__buttons">
         {#each links as link}
-          <button type="button" class="about__button" on:click={link.url}>
+          <a href={link.url} class="about__button">
             <h4 class="about__h4">{link.name}</h4>
-          </button>
+          </a>
         {/each}
       </div>
 
@@ -183,7 +182,7 @@
     text-align: left;
   }
 
-  .about__a{
+  .about__a {
     color: var(--color-primary);
   }
 
@@ -221,7 +220,7 @@
 
   /* Links de links de legal */
 
-  .about__buttons{
+  .about__buttons {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -246,7 +245,6 @@
   .about__h4 {
     color: var(--color-secondary);
     font-size: 1rem;
-
   }
 
   /* actualizaciones */
